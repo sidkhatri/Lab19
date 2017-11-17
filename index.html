@@ -1,0 +1,16 @@
+<h1>Shopping Cart</h1>
+<p>Total Purchase</p>
+<textarea id="receipt" rows="10" cols="10"></textarea><br>
+<button type="button" onClick="checkOut()">CheckOut: </button>
+<p id="cart"></p>
+
+<table>
+  <tr>
+    <th>Cart</th>
+  <th><button type="button" onClick="addItem('Apples', 2.99)">Apples $2.99</button></th>
+  <th><button type="button" onClick="addItem('Milk', 2.09)">Milk $2.09</button></th>
+  <th><button type="button" onClick="addItem('Oranges', 5.99)">Oranges $5.99</button></th>
+    <th><button type="button" onClick="addItem('Peaches', 4.99)">Peaches $4.99</button></th>  
+  </tr>
+  <td><textArea id="receiptField" rows="35" cols="15"></textArea></td>
+</table>
